@@ -14,6 +14,7 @@ import java.util.Arrays;
 @RestController
 @RequestMapping("/categories")
 public class CategoriesController {
+
     @GetMapping
     public CategoriesList list() {
         return new CategoriesList(Arrays.asList(

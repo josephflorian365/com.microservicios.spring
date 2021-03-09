@@ -17,6 +17,7 @@ import java.util.stream.Collectors;
 @RequestMapping("/products")
 public class ProductsController {
 
+    
     @GetMapping
     public ProductsList list() {
         return mockedList();
